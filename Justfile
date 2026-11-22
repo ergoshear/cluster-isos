@@ -1,10 +1,10 @@
-fedora_ver := "44"
-iso_name := "Fedora-Server-dvd-x86_64-44-1.7.iso"
-iso_url := "https://download.fedoraproject.org/pub/fedora/linux/releases/44/Server/x86_64/iso"
-checksum_name := "Fedora-Server-44-1.7-x86_64-CHECKSUM"
+fedora_ver := "45"
+iso_name := "Fedora-Server-dvd-x86_64-45-1.4.iso"
+iso_url := "https://download.fedoraproject.org/pub/fedora/linux/releases/45/Server/x86_64/iso"
+checksum_name := "Fedora-Server-45-1.4-x86_64-CHECKSUM"
 
 iso_in := "iso/" + iso_name
-iso_out := "iso/ks-fedora44.iso"
+iso_out := "iso/ks-fedora45.iso"
 ks := "kickstart/ks.cfg"
 usb := "/dev/sdc"
 salt_repo_url := "https://github.com/saltstack/salt-install-guide/releases/latest/download/salt.repo"
